@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Styling Header */
+
+.header {
+  width: 100%;
+  background-color: #a44200;
+  padding: 30px;
+}
+
+.header-elements {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-p {
+  font-size: 22px;
+}
+
+.header-a {
+  font-size: 22px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fffb46;
+}
+
+/* Main  */
+.main-section {
+  background-color: #d58936;
+}
+
+/* About me */
+
+.about-me-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.img-panda {
+  width: 60%;
+  align-items: center;
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Porfolio */
+
+.portfolio-p {
+  margin: 100px 0 50px 0;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline black;
+}
+
+.portfolio-border {
+  border-bottom: 2px solid black;
+}
+.portfolio-cards {
+  display: flex;
+}
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zaza {
+  width: 60%;
+}
